@@ -19,7 +19,7 @@ public class SingleAnswerQuestion {
         Scanner scanner = new Scanner(System.in);
         String answer = "";
         int points = 0;
-        switch (randomWithRange()) {
+        switch (SingleAnswerQuestion.randomWithRange()) {
             case 1 :
                 System.out.println("Finish the sentence: Hobits are *** *** dwarfs.");
                 System.out.println("a. smaller than");
